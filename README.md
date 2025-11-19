@@ -156,9 +156,11 @@ By default, ever scene will be run for 5 trials, this can be changed inside the 
 
 To visualize the maps as they being constructed, inside the bash scripts add `--vis_map`. This will update the viser map each time the submap is updated. 
 
-## Updates
+## News and Updates
 
 * August 2025: SL(4) optimization is integrated into the official GTSAM repo
+* September 2025: Accepted to Neurips 2025
+* November 2025: Featured in MIT News [article](https://news.mit.edu/2025/teaching-robots-to-map-large-environments-1105)
 
 ## Acknowledgement
 
@@ -172,10 +174,11 @@ gratefully acknowledge Riku Murai for assisting us with benchmarking.
 If our code is helpful, please cite our paper as follows:
 
 ```
-@article{maggio2025vggt,
+@article{maggio2025vggt-slam,
   title={VGGT-SLAM: Dense RGB SLAM Optimized on the SL (4) Manifold},
   author={Maggio, Dominic and Lim, Hyungtae and Carlone, Luca},
-  journal={arXiv preprint arXiv:2505.12549},
+  journal={Advances in Neural Information Processing Systems},
+  volume={39},
   year={2025}
 }
 ```
